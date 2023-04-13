@@ -6,6 +6,7 @@ int maxLen(vector<int> &A, int n, int k)
     long sum = 0;
     int ans = 0;
     int i = 0, j = 0;
+    
     while (j < n)
     {
         sum = sum + A[j];
